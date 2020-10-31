@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make your music.</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="public/styles.css">
+    <link rel="shortcut icon" href="/public/sounds/myIcon.ico">  
+
+ 
+</head>
+
+<body>
+    <div class="container">
+        <button data-key="65" class="drum a" type="submit"> <kbd>A</kbd>  <span class="sound">CLAP</span> </button>
+        <button data-key="83" class="drum s" type="submit"> <kbd>S</kbd>  <span class="sound">HIHAT</span> </button>
+        <button data-key="68" class="drum d" type="submit"> <kbd>D</kbd> <span class="sound">KICK</span> </button>
+        <button data-key="70" class="drum f" type="submit"> <kbd>F</kbd> <span class="sound">OPENHAT</span> </button>
+        <button data-key="71" class="drum g" type="submit"> <kbd>G</kbd> <span class="sound">BOOM</span> </button>
+        <button data-key="72" class="drum h" type="submit"> <kbd>H</kbd> <span class="sound">RIDE</span> </button>
+        <button data-key="74" class="drum j" type="submit"> <kbd>J</kbd> <span class="sound">SNARE</span> </button>
+        <button data-key="75" class="drum k" type="submit"> <kbd>K</kbd> <span class="sound">TOM</span> </button>
+        <button data-key="76" class="drum l" type="submit"> <kbd>L</kbd> <span class="sound">TINK</span> </button>
+    </div>
+
+    <audio data-key="65" src="/public/sounds/boom.mp3"></audio>
+    <audio data-key="83" src="/public/sounds/hihat.mp3"></audio>
+    <audio data-key="68" src="/public/sounds/kick.mp3"></audio>
+    <audio data-key="70" src="/public/sounds/openhat.mp3"></audio>
+    <audio data-key="71" src="/public/sounds/boom.mp3"></audio>
+    <audio data-key="72" src="/public/sounds/snare.mp3"></audio>
+    <audio data-key="74" src="/public/sounds/snare.mp3"></audio>
+    <audio data-key="75" src="/public/sounds/tom.mp3"></audio>
+    <audio data-key="76" src="/public/sounds/boom.mp3"></audio>
+    <script src="drum.js"></script>
+</body>
+
+</html>

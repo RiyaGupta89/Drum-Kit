@@ -1,0 +1,42 @@
+body {
+   text-align: center;
+    background-image: url('/public/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+
+.drum {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 240px auto;
+    border: 4px solid black;
+    background: transparent;
+    border-radius: 8px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.924);
+    padding: 23px;
+    transition: all 0.07s;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ecd580;
+    box-shadow: 0 0 10px #ecd16e;;
+}
+
+
+
+.sound {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    color: #d3ba62;
+} 
+
+.container {
+    position: relative;
+}
+
